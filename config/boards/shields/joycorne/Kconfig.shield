@@ -1,0 +1,5 @@
+config SHIELD_JOYCORNE_LEFT
+	def_bool $(shields_list_contains,joycorne_left)
+
+config SHIELD_JOYCORNE_RIGHT
+	def_bool $(shields_list_contains,joycorne_right)
